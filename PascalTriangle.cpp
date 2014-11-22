@@ -28,7 +28,7 @@ public:
 
 int main() {
 
-    int numRows = 5;
+    int numRows = 20;
     Solution sol;
 
     vector< vector<int> > ans = sol.generate(numRows);
