@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <climits>
 
 using namespace std;
 
@@ -9,26 +10,31 @@ public:
     int threeSumClosest(vector<int> &num, int target) {
         sort(num.begin(), num.end());
 
-        int min = num[0] + num[1] + num[2];
-        
-        for (int i = 0; i < num.size()-2; i++)
-            for (int j = i+1; j < num.size()-1; j++) {
-                // -- 
-                int min_dis = abs(min - target);
-                int upper = target - num[i] - num[j] + min_dis;
-                int lower = target - num[i] - num[j] - min_dis;
-                for (int k = j + 1; k < num.size(); k++) {
-                    if (num[k] < lower) continue;
-                    else if (num[k] > upper) break;
-                    else {
-                        int ans = num[i] + num[j] + num[k];
-                        if (abs(ans - target) < min_dis)
-                            min = ans;
-                    }
+        int min = INT_MAX, ans;
+        for (int i = 0; i < num.size(); i++) {
+            int j = i + 1;
+            int k = num.size() - 1;
+
+            while (j < k) {
+                int sum = num[i] + num[j] + num[k];
+                int dis = sum - target;
+                if (dis == 0) { min = 0; ans = sum; break; } 
+                // -- here is the trick:
+                // -- if sum is too small, then add j
+                // -- else sub k
+                else if (dis < 0) {
+                    if (-dis < min) { min = -dis; ans = sum; }
+                    j ++;
+                }
+                else {
+                    if (dis < min) { min = dis; ans = sum; }
+                    k --;
                 }
             }
-        
-        return min;
+            while(i<num.size()-1 && num[i] == num[i+1]) i++;
+        }
+
+        return ans;
     }
 };
 
