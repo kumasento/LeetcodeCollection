@@ -1,45 +1,61 @@
+
 #include <iostream>
-#include <algorithm>
 #include <vector>
+#include <algorithm>
+
+#include <cstdlib>
 
 using namespace std;
 
-class Solution {
-public:
-    vector<int> twoSum(vector<int> &numbers, int target) {
-        sort(numbers.begin(), numbers.end());
-        
-        vector<int> ans(2);
-
-        int i = 0, j = numbers.size()-1;
-        while (i < j) {
-            if (numbers[i] + numbers[j] == target) {
-                ans[0] = i + 1;
-                ans[1] = j + 1;
-                return ans;
-            }
-            else if (numbers[i] + numbers[j] > target) 
-                j --;
-            else
-                i ++;
-        }
-
-        return ans;
+struct item
+{
+    int num, id;
+    item(int num, int id): num(num), id(id) {}
+    friend bool operator < (item a, item b)
+    {
+        return a.num < b.num;
     }
 };
 
-int main() {
-    int S[] = {3,2,4};
-    int target = 6;
 
-    vector<int> numbers(S, S+sizeof(S)/sizeof(int));
+vector<int> twoSum(vector<int> &numbers, int target)
+{
+    vector<item> items;
+    for (int i = 0; i < numbers.size(); i++)
+        items.push_back(item(numbers[i], i));
+    sort(items.begin(), items.end());
 
-    Solution sol;
-    vector<int> ans = sol.twoSum(numbers, target);
+    int n = numbers.size();
+    int head = 0, tail = n-1;
+    while (head < tail)
+    {
+        int sum = items[head].num + items[tail].num;
+        if (sum == target)
+            break;
+        else if (sum > target)
+            tail--;
+        else
+            head++;
+    }
+    vector<int> res(2);
+    res[0] = items[head].id + 1;
+    res[1] = items[tail].id + 1;
+    if (res[0] > res[1])
+        swap(res[0], res[1]);
+    return res;
+}
 
-    for (int i = 0; i < ans.size(); i++)
-        cout << ans[i] << ' ';
-    cout << endl;
+int main()
+{
+    vector<int> A(4);
+    A[0] = 2;
+    A[1] = 7;
+    A[2] = 11;
+    A[3] = 15;
+    int target = 9;
+
+    vector<int> res = twoSum(A, target);
+    cout << res[0] << ' ' << res[1] << endl;
 
     return 0;
 }
