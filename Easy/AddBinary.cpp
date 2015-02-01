@@ -9,7 +9,7 @@ class Solution{
 public:
     string addBinary(string a, string b) {
         int al = a.length(), bl = b.length();
-        
+
         int g = 0;
         string ans;
         reverse(a.begin(), a.end());
@@ -21,7 +21,7 @@ public:
 
             int sum = p1 + p2 + g;
             g = sum / 2;
-            
+
             ans.push_back(sum % 2 + '0');
         }
 
@@ -31,9 +31,7 @@ public:
 };
 
 int main() {
-    string a = "1010";
-    string b = "1011";
-    
+
     Solution sol;
     cout << sol.addBinary(a, b) << endl;
 

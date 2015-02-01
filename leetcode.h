@@ -5,7 +5,7 @@ struct TreeNode {
     int val;
     TreeNode *left;
     TreeNode *right;
-    
+
     TreeNode(int x): val(x), left(NULL), right(NULL) {}
 };
 
@@ -22,7 +22,7 @@ TreeNode * TreeExample() {
     root->right->left = new TreeNode(15);
     root->right->right = new TreeNode(7);
 
-    return root; 
+    return root;
 }
 
 #endif

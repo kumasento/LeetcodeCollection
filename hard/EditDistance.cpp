@@ -10,14 +10,14 @@ int minDistance(string word1, string word2) {
     int n = word2.length();
 
     vector< vector<int> > dist(m+1, vector<int>(n+1, 0));
-    
+
     // dist[i][j]:
     // if s1[i-1] == s2[j-1]:
     // 1. dist[i-1][j-1] -> do not need to change
     // 2. dist[i-1][j], dist[i][j-1] -> just choose a smaller one
     // else:
     // 1. dist[i-1][j-1] + 1 -> replace
-    // 2. dist[i-1][j], dist[i][j-1] + 1 -> insert a character 
+    // 2. dist[i-1][j], dist[i][j-1] + 1 -> insert a character
     //
 
     for (int i = 0; i <= m; i++)

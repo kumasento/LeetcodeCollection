@@ -12,9 +12,10 @@ int maxProfit(vector<int> &prices) {
     vector<int> f(n);
     vector<int> g(n);
 
-    // f[i] records the maxProfit before i
+
+     //f[i] records the maxProfit before i
     // g[i] records the maxProfit after i (including)
-    
+
     for (int i = 1, min_price = prices[0]; i < n; i++) {
         min_price = min(min_price, prices[i]);
         f[i] = max(prices[i]-min_price, f[i-1]);
@@ -24,7 +25,7 @@ int maxProfit(vector<int> &prices) {
         g[i] = max(g[i+1], max_price-prices[i]);
     }
     int max = 0;
-    for (int i = 0; i < n; i++) 
+    for (int i = 0; i < n; i++)
         if (max < f[i] + g[i])
             max = f[i] + g[i];
     return max;

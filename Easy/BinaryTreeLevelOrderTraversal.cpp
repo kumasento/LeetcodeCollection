@@ -15,12 +15,11 @@ struct TreeNode {
 class Solution {
 public:
     vector< vector<int> > levelOrder(TreeNode *root) {
-        queue<TreeNode *> node_queue; 
+        queue<TreeNode *> node_queue;
         vector< vector<int> > traversal_result;
-        
-        if (root == NULL) 
+        if (root == NULL)
             return traversal_result;
-        
+
         node_queue.push(root);
         int count = 1;
         int bound = count;
@@ -28,10 +27,10 @@ public:
         vector<int> tmp_result;
         while (!node_queue.empty()) {
             TreeNode *node_now = node_queue.front();
-            node_queue.pop(); 
+            node_queue.pop();
 
             tmp_result.push_back(node_now->val);
-            if (node_now->left != NULL)     { node_queue.push(node_now->left);  count ++;} 
+            if (node_now->left != NULL)     { node_queue.push(node_now->left);  count ++;}
             if (node_now->right != NULL)    { node_queue.push(node_now->right); count ++;}
             idx ++;
             if (idx == bound) {
@@ -42,11 +41,11 @@ public:
         }
 
         return traversal_result;
-    }   
+    }
 };
 
 int main() {
-    
+
     TreeNode *root = new TreeNode(3);
     root->left = new TreeNode(9);
     root->left->left = new TreeNode(18);
@@ -61,7 +60,7 @@ int main() {
 
     int i, j;
     for (i = 0; i < res.size(); i++) {
-        for (j = 0; j < res[i].size(); j++) 
+        for (j = 0; j < res[i].size(); j++)
             printf("%d,", res[i][j]);
         printf("\n");
     }
