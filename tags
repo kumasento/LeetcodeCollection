@@ -1,111 +1,361 @@
-DeleteMin	./easy/PriorityQueue.c	/^int DeleteMin(PriorityQueue H) {$/
-DoubleSpace	./easy/PriorityQueue.c	/^void DoubleSpace(PriorityQueue H) {$/
-HeapStruct	./easy/PriorityQueue.c	/^struct HeapStruct {$/
-Initialize	./easy/PriorityQueue.c	/^PriorityQueue Initialize(int MaxElements) {$/
-Insert	./easy/PriorityQueue.c	/^void Insert(int X, PriorityQueue H) {$/
-IsFull	./easy/PriorityQueue.c	/^int IsFull(PriorityQueue H) { return H->Size == H-/
-ListNode	./archive/mergeTwoSortedList.cpp	/^struct ListNode {$/
-M3Sum-bruteforce.cpp	./medium/3Sum-bruteforce.cpp	/^int main() {$/
-M3Sum.cpp	./medium/3Sum.cpp	/^int main() $/
-M3SumClosest-bruteforce.cpp	./medium/3SumClosest-bruteforce.cpp	/^int main() {$/
-M3SumClosest-bruteforce2.cpp	./medium/3SumClosest-bruteforce2.cpp	/^int main() {$/
-M3SumClosest.cpp	./medium/3SumClosest.cpp	/^int main() {$/
-M4Sum.cpp	./medium/4Sum.cpp	/^int main()$/
-MAddBinary.cpp	./easy/AddBinary.cpp	/^int main() {$/
-MBestTimetoBuyandSellStock.cpp	./medium/BestTimetoBuyandSellStock.cpp	/^int main() {$/
-MBestTimetoBuyandSellStockIII.cpp	./hard/BestTimetoBuyandSellStockIII.cpp	/^int main() {$/
-MBinaryTreeLevelOrderTraversal.cpp	./easy/BinaryTreeLevelOrderTraversal.cpp	/^int main() {$/
-MBinaryTreeLevelOrderTraversalII.cpp	./easy/BinaryTreeLevelOrderTraversalII.cpp	/^int main() {$/
-MCompareVersionNumbers.cpp	./easy/CompareVersionNumbers.cpp	/^int main() {$/
-MConstructBinaryTreeFromInorderandPostorderTraversal.cpp	./medium/ConstructBinaryTreeFromInorderandPostorderTraversal.cpp	/^int main() {$/
-MConstructBinaryTreeFromPreorderandInorderTraversal.cpp	./medium/ConstructBinaryTreeFromPreorderandInorderTraversal.cpp	/^int main() {$/
-MDecodeWays.cpp	./medium/DecodeWays.cpp	/^int main() {$/
-MDistinctSubsequences.cpp	./hard/DistinctSubsequences.cpp	/^int main() {$/
-MEditDistance.cpp	./hard/EditDistance.cpp	/^int main() {$/
-MEvaluateReversePolishNotation.cpp	./medium/EvaluateReversePolishNotation.cpp	/^int main() {$/
-MExcelSheetColumnNumber.cpp	./easy/ExcelSheetColumnNumber.cpp	/^int main() {$/
-MExcelSheetColumnTitle.cpp	./easy/ExcelSheetColumnTitle.cpp	/^int main() {$/
-MFactorialTrailingZeroes.cpp	./easy/FactorialTrailingZeroes.cpp	/^int main() {$/
-MGrayCode.cpp	./medium/GrayCode.cpp	/^int main() {$/
-MIntersectionOfTwoLinkedList.cpp	./easy/IntersectionOfTwoLinkedList.cpp	/^int main() {$/
-MLengthOfLastWord.cpp	./easy/LengthOfLastWord.cpp	/^int main() {$/
-MLetterCombinationofaPhoneNumber.cpp	./medium/LetterCombinationofaPhoneNumber.cpp	/^int main() {$/
-MLongestCommonPrefix.cpp	./easy/LongestCommonPrefix.cpp	/^int main() {$/
-MLongestPalindromeSubstring.cpp	./medium/LongestPalindromeSubstring.cpp	/^int main()$/
-MLongestValidParentheses.cpp	./hard/LongestValidParentheses.cpp	/^int main() {$/
-MMaximalRectangle.cpp	./hard/MaximalRectangle.cpp	/^int main() {$/
-MMaximumProductSubarray.cpp	./medium/MaximumProductSubarray.cpp	/^int main() {$/
-MMergeSorted.cpp	./easy/MergeSorted.cpp	/^int main() {$/
-MMinStack.cpp	./easy/MinStack.cpp	/^int main() {$/
-MMinStack2.cpp	./easy/MinStack2.cpp	/^int main() {$/
-MMinimumPathSum.cpp	./medium/MinimumPathSum.cpp	/^int main() {$/
-MPascalTriangle.cpp	./easy/PascalTriangle.cpp	/^int main() {$/
-MPascalTriangleII.cpp	./easy/PascalTriangleII.cpp	/^int main() {$/
-MPriorityQueue	./easy/PriorityQueue.c	/^int main() {$/
-MRemoveNthNodeFromEndofList.cpp	./easy/RemoveNthNodeFromEndofList.cpp	/^int main() {$/
-MReverseWordsInaString.cpp	./medium/ReverseWordsInaString.cpp	/^int main() {$/
-MRotateImage.cpp	./medium/RotateImage.cpp	/^int main()$/
-MScrambleString.cpp	./hard/ScrambleString.cpp	/^int main() {$/
-MSearchInsertPosition.cpp	./medium/SearchInsertPosition.cpp	/^int main() $/
-MSearcha2DMatrix.cpp	./medium/Searcha2DMatrix.cpp	/^int main() $/
-MSearchforaRange.cpp	./medium/SearchforaRange.cpp	/^int main() $/
-MSearchinRotatedSortedArray.cpp	./hard/SearchinRotatedSortedArray.cpp	/^int main() $/
-MSearchinRotatedSortedArrayII.cpp	./medium/SearchinRotatedSortedArrayII.cpp	/^int main() $/
-MSetMatrixZeroes.cpp	./medium/SetMatrixZeroes.cpp	/^int main() $/
-MSum.cpp	./medium/Sum.cpp	/^int main()$/
-MTriangle.cpp	./medium/Triangle.cpp	/^int main() {$/
-MTwoSum.cpp	./medium/TwoSum.cpp	/^int main()$/
-MUniquePath.cpp	./medium/UniquePath.cpp	/^int main() {$/
-MUniquePathII.cpp	./medium/UniquePathII.cpp	/^int main() {$/
-MValidPalindrome.cpp	./easy/ValidPalindrome.cpp	/^int main() {$/
-MValidParentheses.cpp	./easy/ValidParentheses.cpp	/^int main() {$/
-MWordBreak.cpp	./medium/WordBreak.cpp	/^int main() {$/
-MZigZagConversion.cpp	./easy/ZigZagConversion.cpp	/^int main() {$/
-MkmpExample.cpp	./easy/kmpExample.cpp	/^int main() {$/
-MmaxSubArray.cpp	./archive/maxSubArray.cpp	/^int main() {$/
-MmergeTwoSortedList.cpp	./archive/mergeTwoSortedList.cpp	/^int main() {$/
-MstrStr-wokmp.cpp	./easy/strStr-wokmp.cpp	/^int main() {$/
-PriorityQueue	./easy/PriorityQueue.c	/^struct HeapStruct;$/
-Solution	./archive/[PASSED]BestTimeStock.py	/^    sol = Solution()$/
-TreeNode	./easy/BinaryTreeLevelOrderTraversal.cpp	/^struct TreeNode {$/
-append	./archive/[PASSED]BinaryTreeTraversal.py	/^        result.append(tmp.val)$/
-buildTree	./medium/ConstructBinaryTreeFromInorderandPostorderTraversal.cpp	/^TreeNode *buildTree(vector<int>::iterator ibegin, /
-check	./medium/DecodeWays.cpp	/^bool check(string s) {$/
-climbStairs	./archive/ClimbingStairs.py	/^    return climbStairs(n-1) + climbStairs(n-2)$/
-compareVersion	./easy/CompareVersionNumbers.cpp	/^int compareVersion(string version1, string version/
-connect	./archive/[PASSED]PopulatingNextRightPointer.py	/^    connect(root.left)$/
-convertToTitle	./easy/ExcelSheetColumnTitle.cpp	/^string convertToTitle(int n) {$/
-exit	./archive/[PASSED]bisearch.py	/^        exit(1)$/
-fourSum	./medium/4Sum.cpp	/^vector< vector<int> > fourSum(vector<int> &num, in/
-generateTreesWithNumber	./archive/[PASSED]UniqueBSTplus.py	/^            left_res  = self.generateTreesWithNumb/
-id	./medium/3Sum.cpp	/^    item(int id, int num):num(num), id(id) {}$/
-int	./archive/[PASSED]LinkedListCycle.py	/^        node_num = int(sys.argv[1])$/
-isScramble	./hard/ScrambleString.cpp	/^bool isScramble(string s1, string s2) {$/
-kmp_search	./easy/kmpExample.cpp	/^int kmp_search(char *S, char *W) {$/
-kmp_table	./easy/kmpExample.cpp	/^void kmp_table(char *W, int *T) {$/
-len	./archive/MaximumSubArray.py	/^    length = len(A)$/
-longestPalindrome	./medium/LongestPalindromeSubstring.cpp	/^string longestPalindrome(string s)$/
-longestPalindrome_Dp	./medium/LongestPalindromeSubstring.cpp	/^string longestPalindrome_Dp(string s)$/
-longestValidParentheses	./hard/LongestValidParentheses.cpp	/^int longestValidParentheses(string s) {$/
-maxArea	./medium/ContainerWithMostWater.cpp	/^int maxArea(vector<int> &height) $/
-maxProfit	./hard/BestTimetoBuyandSellStockIII.cpp	/^int maxProfit(vector<int> &prices) {$/
-maxSubArray	./archive/maxSubArray.cpp	/^int maxSubArray(int A[], int n) {$/
-maximalRectangle	./hard/MaximalRectangle.cpp	/^int maximalRectangle(vector< vector<char> > &matri/
-mergeTwoLists	./archive/mergeTwoSortedList.cpp	/^ListNode *mergeTwoLists(ListNode *l1, ListNode *l2/
-minDistance	./hard/EditDistance.cpp	/^int minDistance(string word1, string word2) {$/
-minPathSum	./medium/MinimumPathSum.cpp	/^int minPathSum(vector< vector<int> > &grid) {$/
-numDecodings	./medium/DecodeWays.cpp	/^int numDecodings(string s) {$/
-numDistinct	./hard/DistinctSubsequences.cpp	/^int numDistinct(string S, string T) {$/
-rotate	./medium/RotateImage.cpp	/^void rotate(vector< vector<int> > &matrix)$/
-search	./hard/SearchinRotatedSortedArray.cpp	/^int search(int A[], int n, int target)$/
-searchInsert	./medium/SearchInsertPosition.cpp	/^int searchInsert(int A[], int n, int target)$/
-searchMatrix	./medium/Searcha2DMatrix.cpp	/^bool searchMatrix(vector< vector<int> > &matrix, i/
-searchRange	./medium/SearchforaRange.cpp	/^vector<int> searchRange(int A[], int n, int target/
-setZeroes	./medium/SetMatrixZeroes.cpp	/^void setZeroes(vector< vector<int> > &matrix) $/
-threeSum	./medium/3Sum.cpp	/^vector< vector<int> > threeSum(vector<int> &num)$/
-titleToNumber	./easy/ExcelSheetColumnNumber.cpp	/^int titleToNumber(string s) {$/
-trailingZeroes	./easy/FactorialTrailingZeroes.cpp	/^int trailingZeroes(int n) {$/
-twoSum	./medium/TwoSum.cpp	/^vector<int> twoSum(vector<int> &numbers, int targe/
-uniquePaths	./medium/UniquePath.cpp	/^int uniquePaths(int m, int n) {$/
-uniquePathsWithObstacles	./medium/UniquePathII.cpp	/^int uniquePathsWithObstacles(vector< vector<int> >/
-wordBreak	./medium/WordBreak.cpp	/^bool wordBreak(string s, unordered_set<string> &di/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	./archive/[PASSED]SingleNumber.py	/^    A = [1,2,1,3,3,4,2]$/;"	v	class:Solution
+CMP	./hard/MaximalRectangle.cpp	/^int CMP(int x, int y) { return (x == 0 || x > y) ? y : x; }$/;"	f
+Capacity	./easy/MinStack.cpp	/^    int Capacity;$/;"	m	class:MinStack	file:
+Capacity	./easy/PriorityQueue.c	/^    int Capacity;$/;"	m	struct:HeapStruct	file:
+DeleteMin	./easy/MinStack.cpp	/^    int DeleteMin() {$/;"	f	class:MinStack	file:
+DeleteMin	./easy/PriorityQueue.c	/^int DeleteMin(PriorityQueue H) {$/;"	f
+DoubleSpace	./easy/MinStack.cpp	/^    void DoubleSpace() {$/;"	f	class:MinStack	file:
+DoubleSpace	./easy/PriorityQueue.c	/^void DoubleSpace(PriorityQueue H) {$/;"	f
+Elements	./easy/MinStack.cpp	/^    int *Elements;$/;"	m	class:MinStack	file:
+Elements	./easy/PriorityQueue.c	/^    int *Elements;$/;"	m	struct:HeapStruct	file:
+HeapStruct	./easy/PriorityQueue.c	/^struct HeapStruct {$/;"	s	file:
+Initialize	./easy/MinStack.cpp	/^    void Initialize(int MaxElements) {$/;"	f	class:MinStack	file:
+Initialize	./easy/PriorityQueue.c	/^PriorityQueue Initialize(int MaxElements) {$/;"	f
+Insert	./easy/MinStack.cpp	/^    void Insert(int X) {$/;"	f	class:MinStack	file:
+Insert	./easy/PriorityQueue.c	/^void Insert(int X, PriorityQueue H) {$/;"	f
+IsFull	./easy/MinStack.cpp	/^    int IsFull() { return Size == Capacity; }$/;"	f	class:MinStack	file:
+IsFull	./easy/PriorityQueue.c	/^int IsFull(PriorityQueue H) { return H->Size == H->Capacity; }$/;"	f
+ListNode	./archive/[PASSED]LinkedListCycle.py	/^class ListNode:$/;"	c
+ListNode	./archive/mergeTwoSortedList.cpp	/^    ListNode(int x) : val(x), next(NULL) {};$/;"	f	struct:ListNode
+ListNode	./archive/mergeTwoSortedList.cpp	/^struct ListNode {$/;"	s	file:
+ListNode	./leetcode.h	/^    ListNode(int x): val(x), next(NULL) {}$/;"	f	struct:ListNode
+ListNode	./leetcode.h	/^struct ListNode {$/;"	s
+MAXN	./easy/MergeSorted.cpp	/^#define MAXN /;"	d	file:
+MAX_TEST_NUM	./easy/MinStack.cpp	/^#define MAX_TEST_NUM /;"	d	file:
+MAX_TEST_NUM	./easy/MinStack2.cpp	/^#define MAX_TEST_NUM /;"	d	file:
+MaxInfo	./hard/MaximalRectangle.cpp	/^    MaxInfo() { x=y=h=w=0; }$/;"	f	struct:MaxInfo
+MaxInfo	./hard/MaximalRectangle.cpp	/^    MaxInfo(int x, int y, int h, int w)$/;"	f	struct:MaxInfo
+MaxInfo	./hard/MaximalRectangle.cpp	/^struct MaxInfo$/;"	s	file:
+MinStack	./easy/MinStack.cpp	/^    MinStack() { Initialize(0); }$/;"	f	class:MinStack
+MinStack	./easy/MinStack.cpp	/^class MinStack {$/;"	c	file:
+MinStack	./easy/MinStack2.cpp	/^class MinStack {$/;"	c	file:
+PriorityQueue	./easy/PriorityQueue.c	/^typedef struct HeapStruct * PriorityQueue;$/;"	t	typeref:struct:HeapStruct	file:
+S	./hard/MaximalRectangle.cpp	/^    int S() { return h * w; }$/;"	f	struct:MaxInfo
+Size	./easy/MinStack.cpp	/^    int Size;$/;"	m	class:MinStack	file:
+Size	./easy/PriorityQueue.c	/^    int Size;$/;"	m	struct:HeapStruct	file:
+Solution	./archive/[PASSED]BestTimeStock.py	/^class Solution:$/;"	c
+Solution	./archive/[PASSED]RecoverBinaryTree.py	/^class Solution:$/;"	c
+Solution	./archive/[PASSED]SingleNumber.py	/^class Solution:$/;"	c
+Solution	./archive/[PASSED]TwoSumSolver.py	/^class Solution:$/;"	c
+Solution	./archive/[PASSED]UniqueBST.py	/^class Solution:$/;"	c
+Solution	./archive/[PASSED]UniqueBSTplus.py	/^class Solution:$/;"	c
+Solution	./easy/AddBinary.cpp	/^class Solution{$/;"	c	file:
+Solution	./easy/BinaryTreeLevelOrderTraversal.cpp	/^class Solution {$/;"	c	file:
+Solution	./easy/BinaryTreeLevelOrderTraversalII.cpp	/^class Solution {$/;"	c	file:
+Solution	./easy/IntersectionOfTwoLinkedList.cpp	/^class Solution {$/;"	c	file:
+Solution	./easy/LengthOfLastWord.cpp	/^class Solution { $/;"	c	file:
+Solution	./easy/LongestCommonPrefix.cpp	/^class Solution {$/;"	c	file:
+Solution	./easy/MergeSorted.cpp	/^class Solution {$/;"	c	file:
+Solution	./easy/PascalTriangle.cpp	/^class Solution {$/;"	c	file:
+Solution	./easy/PascalTriangleII.cpp	/^class Solution {$/;"	c	file:
+Solution	./easy/RemoveNthNodeFromEndofList.cpp	/^class Solution {$/;"	c	file:
+Solution	./easy/ValidPalindrome.cpp	/^class Solution {$/;"	c	file:
+Solution	./easy/ValidParentheses.cpp	/^class Solution {$/;"	c	file:
+Solution	./easy/ValidSudoku.cpp	/^class Solution {$/;"	c	file:
+Solution	./easy/ZigZagConversion.cpp	/^class Solution {$/;"	c	file:
+Solution	./easy/strStr-wokmp.cpp	/^class Solution {$/;"	c	file:
+Solution	./medium/3Sum-bruteforce.cpp	/^class Solution{$/;"	c	file:
+Solution	./medium/3SumClosest-bruteforce.cpp	/^class Solution {$/;"	c	file:
+Solution	./medium/3SumClosest-bruteforce2.cpp	/^class Solution {$/;"	c	file:
+Solution	./medium/3SumClosest.cpp	/^class Solution {$/;"	c	file:
+Solution	./medium/EvaluateReversePolishNotation.cpp	/^class Solution{$/;"	c	file:
+Solution	./medium/GrayCode.cpp	/^class Solution {$/;"	c	file:
+Solution	./medium/LetterCombinationofaPhoneNumber.cpp	/^class Solution {$/;"	c	file:
+Solution	./medium/MaximumProductSubarray.cpp	/^class Solution {$/;"	c	file:
+Solution	./medium/ReverseWordsInaString.cpp	/^class Solution {$/;"	c	file:
+Solution	./medium/Triangle.cpp	/^class Solution {$/;"	c	file:
+TreeExample	./leetcode.h	/^TreeNode * TreeExample() {$/;"	f
+TreeExample	./tree.h	/^TreeNode * TreeExample() {$/;"	f
+TreeNode	./archive/[PASSED]BinaryTreeTraversal.py	/^class TreeNode:$/;"	c
+TreeNode	./archive/[PASSED]PopulatingNextRightPointer.py	/^class TreeNode:$/;"	c
+TreeNode	./archive/[PASSED]RecoverBinaryTree.py	/^class TreeNode:$/;"	c
+TreeNode	./archive/[PASSED]UniqueBSTplus.py	/^class TreeNode:$/;"	c
+TreeNode	./easy/BinaryTreeLevelOrderTraversal.cpp	/^    TreeNode (int x): val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode
+TreeNode	./easy/BinaryTreeLevelOrderTraversal.cpp	/^struct TreeNode {$/;"	s	file:
+TreeNode	./leetcode.h	/^    TreeNode(int x): val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode
+TreeNode	./leetcode.h	/^struct TreeNode {$/;"	s
+TreeNode	./tree.h	/^    TreeNode(int x): val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode
+TreeNode	./tree.h	/^struct TreeNode {$/;"	s
+_LEET_CODE_H_	./leetcode.h	/^#define _LEET_CODE_H_$/;"	d
+_TREE_H_	./tree.h	/^#define _TREE_H_$/;"	d
+__init__	./archive/[PASSED]BinaryTreeTraversal.py	/^    def __init__(self, x):$/;"	m	class:TreeNode
+__init__	./archive/[PASSED]LinkedListCycle.py	/^    def __init__(self, x):$/;"	m	class:ListNode
+__init__	./archive/[PASSED]PopulatingNextRightPointer.py	/^    def __init__(self, x):$/;"	m	class:TreeNode
+__init__	./archive/[PASSED]RecoverBinaryTree.py	/^    def __init__(self, x):$/;"	m	class:TreeNode
+__init__	./archive/[PASSED]UniqueBSTplus.py	/^    def __init__(self, x):$/;"	m	class:TreeNode
+addBinary	./easy/AddBinary.cpp	/^    string addBinary(string a, string b) {$/;"	f	class:Solution
+addTwoNumbers	./medium/AddTwoNumbers.cpp	/^ListNode *addTwoNumbers(ListNode *l1, ListNode* l2)$/;"	f
+biSearch	./archive/[PASSED]TwoSumSolver.py	/^    def biSearch(self, tuple_num, val):$/;"	m	class:Solution
+biSearch	./archive/[PASSED]bisearch.py	/^def biSearch(num, val):$/;"	f
+buildListNode	./leetcode.h	/^ListNode *buildListNode(int A[], int n)$/;"	f
+buildTree	./medium/ConstructBinaryTreeFromInorderandPostorderTraversal.cpp	/^TreeNode *buildTree(vector<int> &inorder, vector<int> &postorder) $/;"	f
+buildTree	./medium/ConstructBinaryTreeFromInorderandPostorderTraversal.cpp	/^TreeNode *buildTree(vector<int>::iterator ibegin, $/;"	f
+buildTree	./medium/ConstructBinaryTreeFromPreorderandInorderTraversal.cpp	/^TreeNode *buildTree(vector<int> &preorder, vector<int> &inorder)$/;"	f
+buildTree	./medium/ConstructBinaryTreeFromPreorderandInorderTraversal.cpp	/^TreeNode *buildTree(vector<int>::iterator pb,$/;"	f
+cSum	./medium/CombinationSum.cpp	/^vector< vector<int> > cSum(vector<int> &cand, int target, int idx)$/;"	f
+cSum2	./medium/CombinationSumII.cpp	/^vector< vector<int> > cSum2(vector<int> &num, int target, int idx)$/;"	f
+canJump	./medium/JumpGame.cpp	/^bool canJump(int A[], int n)$/;"	f
+check	./medium/DecodeWays.cpp	/^bool check(string s) {$/;"	f
+climbStairs	./archive/ClimbingStairs.py	/^def climbStairs(n):$/;"	f
+combinationSum	./medium/CombinationSum.cpp	/^vector< vector<int> > combinationSum(vector<int> &candidates, int target)$/;"	f
+combinationSum2	./medium/CombinationSumII.cpp	/^vector< vector<int> > combinationSum2(vector<int> &num, int target)$/;"	f
+compareVersion	./easy/CompareVersionNumbers.cpp	/^int compareVersion(string version1, string version2) {$/;"	f
+connect	./archive/[PASSED]PopulatingNextRightPointer.py	/^def connect(root):$/;"	f
+convert	./easy/ZigZagConversion.cpp	/^    string convert(string s, int nRows) {$/;"	f	class:Solution
+convertToTitle	./easy/ExcelSheetColumnTitle.cpp	/^string convertToTitle(int n) {$/;"	f
+dfs	./medium/WordSearch.cpp	/^bool dfs(vector< vector<char> > &board, int x, int y, string word, int i)$/;"	f
+enumerate	./medium/SubSetsII.cpp	/^vector< vector<int> > enumerate(vector< pair<int, int> > items,$/;"	f
+evalRPN	./medium/EvaluateReversePolishNotation.cpp	/^    int evalRPN(vector<string> &tokens) {$/;"	f	class:Solution
+exist	./medium/WordSearch.cpp	/^bool exist(vector< vector<char> > &board, string word)$/;"	f
+findMin	./medium/FindMinimuminRotatedSortedArray.cpp	/^int findMin(vector<int> &num)$/;"	f
+findMinRecur	./medium/FindMinimuminRotatedSortedArray.cpp	/^int findMinRecur(vector<int> &num, int L, int R)$/;"	f
+findPeakElement	./medium/FindPeakElement.cpp	/^int findPeakElement(const vector<int> &num)$/;"	f
+fourSum	./medium/4Sum.cpp	/^vector< vector<int> > fourSum(vector<int> &num, int target)$/;"	f
+fourSum	./medium/Sum.cpp	/^vector< vector<int> > fourSum(vector<int> &num, int target)$/;"	f
+generate	./easy/PascalTriangle.cpp	/^    vector< vector<int> > generate(int numRows) {$/;"	f	class:Solution
+generate	./medium/ConvertSortedArraytoBinarySearchTree.cpp	/^TreeNode *generate(vector<int> &num, int l, int r)$/;"	f
+generateMatrix	./medium/SpiralMatrixII.cpp	/^vector< vector<int> > generateMatrix(int n)$/;"	f
+generateTrees	./archive/[PASSED]UniqueBSTplus.py	/^    def generateTrees(self, n):$/;"	m	class:Solution
+generateTreesWithNumber	./archive/[PASSED]UniqueBSTplus.py	/^    def generateTreesWithNumber(self, begin, end):$/;"	m	class:Solution
+getIntersectionNode	./easy/IntersectionOfTwoLinkedList.cpp	/^    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {$/;"	f	class:Solution
+getMin	./easy/MinStack.cpp	/^    int getMin() {$/;"	f	class:MinStack
+getMin	./easy/MinStack2.cpp	/^    int getMin() {$/;"	f	class:MinStack
+getRow	./easy/PascalTriangleII.cpp	/^    vector<int> getRow(int rowIndex) {$/;"	f	class:Solution
+grayCode	./medium/GrayCode.cpp	/^    vector<int> grayCode(int n) {$/;"	f	class:Solution
+h	./hard/MaximalRectangle.cpp	/^    int x, y, h, w;$/;"	m	struct:MaxInfo	file:
+hasCycle	./archive/[PASSED]LinkedListCycle.py	/^def hasCycle(head):$/;"	f
+head	./archive/[PASSED]LinkedListCycle.py	/^    head = ListNode(0)$/;"	v
+id	./medium/3Sum.cpp	/^    int id, num;$/;"	m	struct:item	file:
+id	./medium/TwoSum.cpp	/^    int num, id;$/;"	m	struct:item	file:
+inorderTraversal	./archive/[PASSED]BinaryTreeTraversal.py	/^def inorderTraversal(root):$/;"	f
+insertionSortList	./medium/InsertionSortList.cpp	/^ListNode *insertionSortList(ListNode *head)$/;"	f
+isPalindrome	./easy/ValidPalindrome.cpp	/^    bool isPalindrome(string s) {$/;"	f	class:Solution
+isScramble	./hard/ScrambleString.cpp	/^bool isScramble(string s1, string s2) {$/;"	f
+isValid	./easy/ValidParentheses.cpp	/^    bool isValid(string s) {$/;"	f	class:Solution
+isValidSudoku	./easy/ValidSudoku.cpp	/^    bool isValidSudoku(vector< vector<char> > &board) {$/;"	f	class:Solution
+item	./medium/3Sum.cpp	/^    item(int id, int num):num(num), id(id) {}$/;"	f	struct:item
+item	./medium/3Sum.cpp	/^struct item$/;"	s	file:
+item	./medium/TwoSum.cpp	/^    item(int num, int id): num(num), id(id) {}$/;"	f	struct:item
+item	./medium/TwoSum.cpp	/^struct item$/;"	s	file:
+kmp_search	./easy/kmpExample.cpp	/^int kmp_search(char *S, char *W) {$/;"	f
+kmp_table	./easy/kmpExample.cpp	/^void kmp_table(char *W, int *T) {$/;"	f
+largestRectangleArea	./hard/LargestRectangleinHistogram.cpp	/^int largestRectangleArea(vector<int> &height)$/;"	f
+left	./easy/BinaryTreeLevelOrderTraversal.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:
+left	./leetcode.h	/^    TreeNode *left;$/;"	m	struct:TreeNode
+left	./tree.h	/^    TreeNode *left;$/;"	m	struct:TreeNode
+lengthOfCycle_formula	./archive/[PASSED]LinkedListCycle.py	/^def lengthOfCycle_formula(head):$/;"	f
+lengthOfCycle_nofast	./archive/[PASSED]LinkedListCycle.py	/^def lengthOfCycle_nofast(head):$/;"	f
+lengthOfCycle_regular	./archive/[PASSED]LinkedListCycle.py	/^def lengthOfCycle_regular(head):    $/;"	f
+lengthOfLastWord	./easy/LengthOfLastWord.cpp	/^    int lengthOfLastWord(const char *s) {$/;"	f	class:Solution
+letterCombinations	./medium/LetterCombinationofaPhoneNumber.cpp	/^    vector<string> letterCombinations(string digits) {$/;"	f	class:Solution
+levelOrder	./easy/BinaryTreeLevelOrderTraversal.cpp	/^    vector< vector<int> > levelOrder(TreeNode *root) {$/;"	f	class:Solution
+levelOrder	./easy/BinaryTreeLevelOrderTraversalII.cpp	/^    void levelOrder(TreeNode *root, vector< vector<int> >&ans, int level) {$/;"	f	class:Solution
+levelOrderBottom	./easy/BinaryTreeLevelOrderTraversalII.cpp	/^    vector< vector<int> > levelOrderBottom(TreeNode *root) {$/;"	f	class:Solution
+longestCommonPrefix	./easy/LongestCommonPrefix.cpp	/^    string longestCommonPrefix(vector<string> &strs) {$/;"	f	class:Solution
+longestPalindrome	./medium/LongestPalindromeSubstring.cpp	/^string longestPalindrome(string s)$/;"	f
+longestPalindrome_Dp	./medium/LongestPalindromeSubstring.cpp	/^string longestPalindrome_Dp(string s)$/;"	f
+longestValidParentheses	./hard/LongestValidParentheses.cpp	/^int longestValidParentheses(string s) {$/;"	f
+main	./archive/MaximumSubArray.py	/^def main():$/;"	f
+main	./archive/[PASSED]PopulatingNextRightPointer.py	/^def main():$/;"	f
+main	./archive/[PASSED]SearchInsertPosition.py	/^def main():$/;"	f
+main	./archive/maxSubArray.cpp	/^int main() {$/;"	f
+main	./archive/mergeTwoSortedList.cpp	/^int main() {$/;"	f
+main	./easy/AddBinary.cpp	/^int main() {$/;"	f
+main	./easy/BinaryTreeLevelOrderTraversal.cpp	/^int main() {$/;"	f
+main	./easy/BinaryTreeLevelOrderTraversalII.cpp	/^int main() {$/;"	f
+main	./easy/CompareVersionNumbers.cpp	/^int main() {$/;"	f
+main	./easy/ExcelSheetColumnNumber.cpp	/^int main() {$/;"	f
+main	./easy/ExcelSheetColumnTitle.cpp	/^int main() {$/;"	f
+main	./easy/FactorialTrailingZeroes.cpp	/^int main() {$/;"	f
+main	./easy/IntersectionOfTwoLinkedList.cpp	/^int main() {$/;"	f
+main	./easy/LengthOfLastWord.cpp	/^int main() {$/;"	f
+main	./easy/LongestCommonPrefix.cpp	/^int main() {$/;"	f
+main	./easy/MergeSorted.cpp	/^int main() {$/;"	f
+main	./easy/MinStack.cpp	/^int main() {$/;"	f
+main	./easy/MinStack2.cpp	/^int main() {$/;"	f
+main	./easy/PascalTriangle.cpp	/^int main() {$/;"	f
+main	./easy/PascalTriangleII.cpp	/^int main() {$/;"	f
+main	./easy/PriorityQueue.c	/^int main() {$/;"	f
+main	./easy/RemoveNthNodeFromEndofList.cpp	/^int main() {$/;"	f
+main	./easy/ValidPalindrome.cpp	/^int main() {$/;"	f
+main	./easy/ValidParentheses.cpp	/^int main() {$/;"	f
+main	./easy/ZigZagConversion.cpp	/^int main() {$/;"	f
+main	./easy/kmpExample.cpp	/^int main() {$/;"	f
+main	./easy/strStr-wokmp.cpp	/^int main() {$/;"	f
+main	./hard/BestTimetoBuyandSellStockIII.cpp	/^int main() {$/;"	f
+main	./hard/DistinctSubsequences.cpp	/^int main() {$/;"	f
+main	./hard/EditDistance.cpp	/^int main() {$/;"	f
+main	./hard/LargestRectangleinHistogram.cpp	/^int main()$/;"	f
+main	./hard/LongestValidParentheses.cpp	/^int main() {$/;"	f
+main	./hard/MaximalRectangle.cpp	/^int main()$/;"	f
+main	./hard/ScrambleString.cpp	/^int main() {$/;"	f
+main	./hard/SearchinRotatedSortedArray.cpp	/^int main() $/;"	f
+main	./medium/3Sum-bruteforce.cpp	/^int main() {$/;"	f
+main	./medium/3Sum.cpp	/^int main() $/;"	f
+main	./medium/3SumClosest-bruteforce.cpp	/^int main() {$/;"	f
+main	./medium/3SumClosest-bruteforce2.cpp	/^int main() {$/;"	f
+main	./medium/3SumClosest.cpp	/^int main() {$/;"	f
+main	./medium/4Sum.cpp	/^int main()$/;"	f
+main	./medium/AddTwoNumbers.cpp	/^int main()$/;"	f
+main	./medium/BestTimetoBuyandSellStock.cpp	/^int main() {$/;"	f
+main	./medium/CombinationSum.cpp	/^int main()$/;"	f
+main	./medium/CombinationSumII.cpp	/^int main()$/;"	f
+main	./medium/ConstructBinaryTreeFromInorderandPostorderTraversal.cpp	/^int main() {$/;"	f
+main	./medium/ConstructBinaryTreeFromPreorderandInorderTraversal.cpp	/^int main() {$/;"	f
+main	./medium/ContainerWithMostWater.cpp	/^int main() $/;"	f
+main	./medium/ConvertSortedArraytoBinarySearchTree.cpp	/^int main()$/;"	f
+main	./medium/ConvertSortedListtoBinarySearchTree.cpp	/^int main()$/;"	f
+main	./medium/DecodeWays.cpp	/^int main() {$/;"	f
+main	./medium/EvaluateReversePolishNotation.cpp	/^int main() {$/;"	f
+main	./medium/FindMinimuminRotatedSortedArray.cpp	/^int main()$/;"	f
+main	./medium/FindPeakElement.cpp	/^int main()$/;"	f
+main	./medium/GrayCode.cpp	/^int main() {$/;"	f
+main	./medium/InsertionSortList.cpp	/^int main()$/;"	f
+main	./medium/JumpGame.cpp	/^int main()$/;"	f
+main	./medium/LetterCombinationofaPhoneNumber.cpp	/^int main() {$/;"	f
+main	./medium/LongestPalindromeSubstring.cpp	/^int main()$/;"	f
+main	./medium/MaximumProductSubarray.cpp	/^int main() {$/;"	f
+main	./medium/MinimumPathSum.cpp	/^int main() {$/;"	f
+main	./medium/NextPermutation.cpp	/^int main()$/;"	f
+main	./medium/RemoveDuplicatesfromSortedArrayII.cpp	/^int main()$/;"	f
+main	./medium/ReverseLinkedListII.cpp	/^int main()$/;"	f
+main	./medium/ReverseWordsInaString.cpp	/^int main() {$/;"	f
+main	./medium/RotateImage.cpp	/^int main()$/;"	f
+main	./medium/RotateList.cpp	/^int main()$/;"	f
+main	./medium/SearchInsertPosition.cpp	/^int main() $/;"	f
+main	./medium/Searcha2DMatrix.cpp	/^int main() $/;"	f
+main	./medium/SearchforaRange.cpp	/^int main() $/;"	f
+main	./medium/SearchinRotatedSortedArrayII.cpp	/^int main() $/;"	f
+main	./medium/SetMatrixZeroes.cpp	/^int main() $/;"	f
+main	./medium/SingleNumber.cpp	/^int main()$/;"	f
+main	./medium/SortColors.cpp	/^int main()$/;"	f
+main	./medium/SortList.cpp	/^int main()$/;"	f
+main	./medium/SpiralMatrix.cpp	/^int main()$/;"	f
+main	./medium/SpiralMatrixII.cpp	/^int main()$/;"	f
+main	./medium/SubSet.cpp	/^int main()$/;"	f
+main	./medium/SubSetsII.cpp	/^int main()$/;"	f
+main	./medium/Sum.cpp	/^int main()$/;"	f
+main	./medium/SwapNodesinPairs.cpp	/^int main()$/;"	f
+main	./medium/Triangle.cpp	/^int main() {$/;"	f
+main	./medium/TwoSum.cpp	/^int main()$/;"	f
+main	./medium/UniquePath.cpp	/^int main() {$/;"	f
+main	./medium/UniquePathII.cpp	/^int main() {$/;"	f
+main	./medium/WordBreak.cpp	/^int main() {$/;"	f
+main	./medium/WordSearch.cpp	/^int main()$/;"	f
+majorityElement	./easy/MajorityElement.py	/^def majorityElement(num):$/;"	f
+maxArea	./medium/ContainerWithMostWater.cpp	/^int maxArea(vector<int> &height) $/;"	f
+maxProduct	./medium/MaximumProductSubarray.cpp	/^    int maxProduct(int A[], int n) {$/;"	f	class:Solution
+maxProfit	./archive/[PASSED]BestTimeStock.py	/^    def maxProfit(self, prices):$/;"	m	class:Solution
+maxProfit	./hard/BestTimetoBuyandSellStockIII.cpp	/^int maxProfit(vector<int> &prices) {$/;"	f
+maxProfit	./medium/BestTimetoBuyandSellStock.cpp	/^int maxProfit(vector<int> &prices) {$/;"	f
+maxSubArray	./archive/MaximumSubArray.py	/^def maxSubArray(A):$/;"	f
+maxSubArray	./archive/maxSubArray.cpp	/^int maxSubArray(int A[], int n) {$/;"	f
+maximalRectangle	./hard/MaximalRectangle.cpp	/^int maximalRectangle(vector< vector<char> > &matrix)$/;"	f
+merge	./easy/MergeSorted.cpp	/^    void merge(int A[], int m, int B[], int n) {$/;"	f	class:Solution
+mergeTwoLists	./archive/mergeTwoSortedList.cpp	/^ListNode *mergeTwoLists(ListNode *l1, ListNode *l2) {$/;"	f
+minDistance	./hard/EditDistance.cpp	/^int minDistance(string word1, string word2) {$/;"	f
+minPathSum	./medium/MinimumPathSum.cpp	/^int minPathSum(vector< vector<int> > &grid) {$/;"	f
+minStack	./easy/MinStack2.cpp	/^    stack<int> simpleStack, minStack;$/;"	m	class:MinStack	file:
+minimumTotal	./medium/Triangle.cpp	/^        int minimumTotal(vector< vector<int> > &triangle) {$/;"	f	class:Solution
+next	./archive/mergeTwoSortedList.cpp	/^    ListNode* next;$/;"	m	struct:ListNode	file:
+next	./leetcode.h	/^    ListNode *next;$/;"	m	struct:ListNode
+nextPermutation	./medium/NextPermutation.cpp	/^void nextPermutation(vector<int> &num)$/;"	f
+nodeStack	./easy/RemoveNthNodeFromEndofList.cpp	/^    stack<ListNode *> nodeStack;$/;"	m	class:Solution	file:
+node_num	./archive/[PASSED]LinkedListCycle.py	/^        node_num = int(sys.argv[1])$/;"	v
+node_num	./archive/[PASSED]LinkedListCycle.py	/^    node_num = 10$/;"	v
+num	./archive/[PASSED]TwoSumSolver.py	/^    num = map(int, sys.argv[1:-1])$/;"	v	class:Solution
+num	./archive/[PASSED]bisearch.py	/^    num = range(1,101) $/;"	v
+num	./medium/3Sum.cpp	/^    int id, num;$/;"	m	struct:item	file:
+num	./medium/TwoSum.cpp	/^    int num, id;$/;"	m	struct:item	file:
+numDecodings	./medium/DecodeWays.cpp	/^int numDecodings(string s) {$/;"	f
+numDistinct	./hard/DistinctSubsequences.cpp	/^int numDistinct(string S, string T) {$/;"	f
+numTrees	./archive/[PASSED]UniqueBST.py	/^    def numTrees(self, n):$/;"	m	class:Solution
+operator <	./medium/3Sum.cpp	/^    friend bool operator < (item a, item b) { return a.num < b.num; }$/;"	f	struct:item
+operator <	./medium/TwoSum.cpp	/^    friend bool operator < (item a, item b)$/;"	f	struct:item
+os	./archive/ClimbingStairs.py	/^import os$/;"	i
+os	./archive/[PASSED]PopulatingNextRightPointer.py	/^import os$/;"	i
+os	./archive/[PASSED]RecoverBinaryTree.py	/^import os$/;"	i
+p	./archive/[PASSED]LinkedListCycle.py	/^            p = p.next$/;"	v
+p	./archive/[PASSED]LinkedListCycle.py	/^        p = head$/;"	v
+pop	./easy/MinStack.cpp	/^    void pop() {$/;"	f	class:MinStack
+pop	./easy/MinStack2.cpp	/^    void pop() {$/;"	f	class:MinStack
+preorderTraversal	./archive/[PASSED]BinaryTreeTraversal.py	/^def preorderTraversal(root):$/;"	f
+printLinkedList	./archive/[PASSED]LinkedListCycle.py	/^def printLinkedList(head):$/;"	f
+printListNode	./leetcode.h	/^void printListNode(ListNode *l)$/;"	f
+push	./easy/MinStack.cpp	/^    void push(int x) {$/;"	f	class:MinStack
+push	./easy/MinStack2.cpp	/^    void push(int x) {$/;"	f	class:MinStack
+rear	./archive/[PASSED]LinkedListCycle.py	/^    rear = tmp$/;"	v
+recoverTree	./archive/[PASSED]RecoverBinaryTree.py	/^    def recoverTree(self, root):$/;"	m	class:Solution
+removeDuplicates	./medium/RemoveDuplicatesfromSortedArrayII.cpp	/^int removeDuplicates(int A[], int n)$/;"	f
+removeNthFromEnd	./easy/RemoveNthNodeFromEndofList.cpp	/^    ListNode *removeNthFromEnd(ListNode *head, int n) {$/;"	f	class:Solution
+reverseBetween	./medium/ReverseLinkedListII.cpp	/^ListNode* reverseBetween(ListNode *head, int m, int n)$/;"	f
+reverseWords	./medium/ReverseWordsInaString.cpp	/^    void reverseWords(string &s) {$/;"	f	class:Solution
+right	./easy/BinaryTreeLevelOrderTraversal.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:
+right	./leetcode.h	/^    TreeNode *right;$/;"	m	struct:TreeNode
+right	./tree.h	/^    TreeNode *right;$/;"	m	struct:TreeNode
+root	./archive/[PASSED]BinaryTreeTraversal.py	/^    root = TreeNode(1)$/;"	v
+rotate	./medium/RotateImage.cpp	/^void rotate(vector< vector<int> > &matrix)$/;"	f
+rotateRight	./medium/RotateList.cpp	/^ListNode *rotateRight(ListNode *head, int n)$/;"	f
+search	./hard/SearchinRotatedSortedArray.cpp	/^int search(int A[], int n, int target)$/;"	f
+search	./medium/SearchinRotatedSortedArrayII.cpp	/^bool search(int A[], int n, int target)$/;"	f
+searchInsert	./archive/[PASSED]SearchInsertPosition.py	/^def searchInsert(A, target):$/;"	f
+searchInsert	./medium/SearchInsertPosition.cpp	/^int searchInsert(int A[], int n, int target)$/;"	f
+searchMatrix	./medium/Searcha2DMatrix.cpp	/^bool searchMatrix(vector< vector<int> > &matrix, int target)$/;"	f
+searchRange	./medium/SearchforaRange.cpp	/^vector<int> searchRange(int A[], int n, int target)$/;"	f
+setZeroes	./medium/SetMatrixZeroes.cpp	/^void setZeroes(vector< vector<int> > &matrix) $/;"	f
+simpleStack	./easy/MinStack2.cpp	/^    stack<int> simpleStack, minStack;$/;"	m	class:MinStack	file:
+singleNumber	./archive/[PASSED]SingleNumber.py	/^    def singleNumber(self, A):$/;"	m	class:Solution
+singleNumber	./medium/SingleNumber.cpp	/^int singleNumber(int A[], int n)$/;"	f
+sol	./archive/[PASSED]BestTimeStock.py	/^    sol = Solution()$/;"	v	class:Solution
+sol	./archive/[PASSED]SingleNumber.py	/^    sol = Solution()$/;"	v	class:Solution
+sol	./archive/[PASSED]TwoSumSolver.py	/^    sol = Solution()$/;"	v	class:Solution
+sol	./archive/[PASSED]UniqueBST.py	/^    sol = Solution()$/;"	v	class:Solution
+sol	./archive/[PASSED]UniqueBSTplus.py	/^    sol = Solution()$/;"	v
+sortColors	./medium/SortColors.cpp	/^void sortColors(int A[], int n)$/;"	f
+sortList	./medium/SortList.cpp	/^ListNode *sortList(ListNode *head)$/;"	f
+sortedArrayToBST	./medium/ConvertSortedArraytoBinarySearchTree.cpp	/^TreeNode *sortedArrayToBST(vector<int> &num)$/;"	f
+sortedListToBST	./medium/ConvertSortedListtoBinarySearchTree.cpp	/^TreeNode *sortedListToBST(ListNode *&head, int l, int r)$/;"	f
+sortedListToBST	./medium/ConvertSortedListtoBinarySearchTree.cpp	/^TreeNode *sortedListToBST(ListNode *head)$/;"	f
+spiralOrder	./medium/SpiralMatrix.cpp	/^vector<int> spiralOrder(vector< vector<int> > &matrix)$/;"	f
+strStr	./easy/strStr-wokmp.cpp	/^    int strStr(char *haystack, char *needle) {$/;"	f	class:Solution
+subsets	./medium/SubSet.cpp	/^vector< vector<int> > subsets(vector<int> &S)$/;"	f
+subsetsWithDup	./medium/SubSetsII.cpp	/^vector< vector<int> > subsetsWithDup(vector<int> &S)$/;"	f
+swapPairs	./medium/SwapNodesinPairs.cpp	/^ListNode* swapPairs(ListNode *head)$/;"	f
+sys	./archive/ClimbingStairs.py	/^import sys$/;"	i
+sys	./archive/[PASSED]LinkedListCycle.py	/^import sys$/;"	i
+sys	./archive/[PASSED]PopulatingNextRightPointer.py	/^import sys$/;"	i
+sys	./archive/[PASSED]RecoverBinaryTree.py	/^import sys$/;"	i
+sys	./archive/[PASSED]TwoSumSolver.py	/^import sys$/;"	i
+threeSum	./medium/3Sum-bruteforce.cpp	/^    vector< vector<int> > threeSum(vector<int> &num) {$/;"	f	class:Solution
+threeSum	./medium/3Sum.cpp	/^vector< vector<int> > threeSum(vector<int> &num)$/;"	f
+threeSum	./medium/Sum.cpp	/^vector< vector<int> > threeSum(vector<int> &num, int target)$/;"	f
+threeSumClosest	./medium/3SumClosest-bruteforce.cpp	/^    int threeSumClosest(vector<int> &num, int target) {$/;"	f	class:Solution
+threeSumClosest	./medium/3SumClosest-bruteforce2.cpp	/^    int threeSumClosest(vector<int> &num, int target) {$/;"	f	class:Solution
+threeSumClosest	./medium/3SumClosest.cpp	/^    int threeSumClosest(vector<int> &num, int target) {$/;"	f	class:Solution
+titleToNumber	./easy/ExcelSheetColumnNumber.cpp	/^int titleToNumber(string s) {$/;"	f
+tmp	./archive/[PASSED]LinkedListCycle.py	/^        tmp = tmp.next$/;"	v
+tmp	./archive/[PASSED]LinkedListCycle.py	/^    tmp = head$/;"	v
+top	./easy/MinStack.cpp	/^    int top() {$/;"	f	class:MinStack
+top	./easy/MinStack2.cpp	/^    int top() {$/;"	f	class:MinStack
+trailingZeroes	./easy/FactorialTrailingZeroes.cpp	/^int trailingZeroes(int n) {$/;"	f
+twoSum	./archive/[PASSED]TwoSumSolver.py	/^    def twoSum(self, num, target):$/;"	m	class:Solution
+twoSum	./medium/TwoSum.cpp	/^vector<int> twoSum(vector<int> &numbers, int target)$/;"	f
+uniquePaths	./medium/UniquePath.cpp	/^int uniquePaths(int m, int n) {$/;"	f
+uniquePathsWithObstacles	./medium/UniquePathII.cpp	/^int uniquePathsWithObstacles(vector< vector<int> > &obstacleGrid) {$/;"	f
+val	./archive/[PASSED]TwoSumSolver.py	/^    val = int(sys.argv[-1])$/;"	v	class:Solution
+val	./archive/[PASSED]bisearch.py	/^    val = int(argv[1])$/;"	v
+val	./archive/mergeTwoSortedList.cpp	/^    int val;$/;"	m	struct:ListNode	file:
+val	./easy/BinaryTreeLevelOrderTraversal.cpp	/^    int val;$/;"	m	struct:TreeNode	file:
+val	./leetcode.h	/^    int val;$/;"	m	struct:ListNode
+val	./leetcode.h	/^    int val;$/;"	m	struct:TreeNode
+val	./tree.h	/^    int val;$/;"	m	struct:TreeNode
+w	./hard/MaximalRectangle.cpp	/^    int x, y, h, w;$/;"	m	struct:MaxInfo	file:
+wordBreak	./medium/WordBreak.cpp	/^bool wordBreak(string s, unordered_set<string> &dict) {$/;"	f
+x	./hard/MaximalRectangle.cpp	/^    int x, y, h, w;$/;"	m	struct:MaxInfo	file:
+y	./hard/MaximalRectangle.cpp	/^    int x, y, h, w;$/;"	m	struct:MaxInfo	file:
