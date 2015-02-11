@@ -55,4 +55,15 @@ void printListNode(ListNode *l)
     cout << endl;
 }
 
+// Utility
+template<typename T>
+void print2DimArray(vector< vector<T> > &ans)
+{
+    for (int i = 0; i < ans.size(); i++)
+        for (int j = 0; j < ans[i].size(); j++)
+            cout << ans[i][j] << ((j==ans[i].size()-1) ? '\n' : ' ');
+
+    cout << "Total: " << ans.size() << endl;
+}
+
 #endif
